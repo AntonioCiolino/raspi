@@ -13,6 +13,7 @@ import time
 import board
 
 display_type = "square"
+print("Press the Y button on the pirate audio to exit")
 
 keys = keypad.Keys((board.D5,board.D6,board.D16,board.D24),
     value_when_pressed=False, 
